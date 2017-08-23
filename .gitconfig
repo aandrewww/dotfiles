@@ -1,0 +1,20 @@
+[user]
+  name = Andrew Avdeev
+  email = andrewww.avdeev@gmail.com
+[core]
+  editor = nano
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[web]
+  browser = google-chrome
+[push]
+  default = simple
+[merge]
+  tool = kdiff3
+[difftool]
+  prompt = false

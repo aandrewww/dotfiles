@@ -1,7 +1,10 @@
-# Dotfiles
+# aandrewww's dotfiles
 
-### ToDo
+My configuration for Mac Os X machines. Some of these dotfiles are universal.
+You're welcome to use :)
 
-* Add tools for homebrew
-* Add apps for homebrew-cask
-* Add settings for zsh
+# ToDo
+
+* Added .eslint
+* Added .eslintignore
+* Added .babelrc

@@ -1,48 +1,114 @@
 cask_args appdir: '/Applications'
 
+# Taps
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'homebrew/dupes'
+tap 'homebrew/php'
 tap 'homebrew/services'
 
-brew 'ack'
+# Install ZSH
+brew 'zsh'
+brew 'zsh-completions'
+
+# Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
-brew 'dark-mode'
-brew 'go'
+
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+brew 'findutils'
+
+# Install Bash 4
+brew 'bash'
+
+# Install more recent versions of some macOS tools
+brew 'homebrew/dupes/grep'
+
+# Install Binaries
+brew 'awscli'
 brew 'git'
+brew 'tree'
+brew 'mackup'
+brew 'mas'
+brew 'trash'
+brew 'ack'
+brew 'dark-mode'
+brew 'unrar'
+brew 'ssh-copy-id'
 brew 'grc'
 brew 'imagemagick', args: ['with-webp']
 brew 'jp2a'
 brew 'jq'
 brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
-brew 'openssl'
-brew 'node'
-brew 'readline'
-brew 'redis'
-brew 'mongodb'
-brew 'postgresql'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'roundup'
 brew 'speedtest_cli'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'ssh-copy-id'
-brew 'testssl'
-brew 'tree'
-brew 'unrar'
 brew 'wget'
 brew 'webkit2png'
-brew 'yarn'
 brew 'youtube-dl'
 
+# Development
+brew 'php71', args: ['with-debug']
+brew 'php71-intl'
+brew 'mariadb'
+brew 'redis'
+brew 'mongodb'
+brew 'mysql'
+brew 'postgresql'
+brew 'node'
+brew 'nvm'
+brew 'ruby'
+brew 'python'
+brew 'yarn'
+brew 'go'
+brew 'git'
+brew 'wget'
+
+# Apps
+cask 'docker'
+cask 'dropbox'
+cask 'firefox'
+cask 'google-backup-and-sync'
+cask 'google-chrome'
+cask 'gpgtools'
+cask 'iterm2'
+cask 'mysqlworkbench'
+cask 'sequel-pro'
+cask 'shuttle'
+cask 'slack'
+cask 'torbrowser'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+cask 'vlc'
 cask '1password'
 cask 'adium'
-cask 'atom'
-cask 'firefox'
-cask 'google-chrome'
 cask 'handbrake'
 cask 'slack'
 cask 'steam'
 cask 'transmission'
 cask 'tunnelbear'
-cask 'vlc'
+
+# Quicklook
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
+
+# Fonts
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+
+# Install Mac App Store apps
+mas '1Password', id: 443987910
+mas 'Byword', id: 420212497
+mas 'Deckset', id: 847496013
+mas 'Gapplin', id: 768053424
+mas 'Giphy Capture', id: 668208984
+mas 'Paw', id: 584653203
+mas 'Sip', id: 507257563
+mas 'Sketch', id: 402476602
+mas 'Tweetbot', id: 557168941
