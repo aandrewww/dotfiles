@@ -5,6 +5,6 @@ You're welcome to use :)
 
 # ToDo
 
-* Added .eslint
-* Added .eslintignore
-* Added .babelrc
+* Add .eslint
+* Add .eslintignore
+* Add .babelrc
