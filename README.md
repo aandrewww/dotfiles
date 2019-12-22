@@ -30,6 +30,20 @@ Applications (installed with [Homebrew Cask](https://github.com/Homebrew/homebre
 - [Handbrake](https://handbrake.fr/) (Video transcoder)
 - [Transmission](https://transmissionbt.com/) (BitTorrent client)
 - [TunnelBear](https://www.tunnelbear.com/) (Secure VPN Service)
+- [Browserstacklocal](https://www.browserstack.com/) (App & Browser Testing)
+- [Postman](https://www.getpostman.com/) (The Collaboration Platform for API Development)
+- [ReactNative Debugger](https://github.com/jhen0409/react-native-debugger) (The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools)
+- [Android Studio](https://developer.android.com/studio/index.html) (Tools for building apps on every type of Android device.)
+- [CocosCreator](https://cocos2d-x.org/) (Script development, entity-component and data-driven game development tool focused on content creation)
+- [Charles](https://www.charlesproxy.com/) (HTTP proxy / HTTP monitor / Reverse Proxy)
+- [TablePlus](https://tableplus.com/) (Database management)
+- [Telegram](https://macos.telegram.org/)
+- [WhatsApp](https://www.whatsapp.com/)
+- [Viber](https://www.viber.com/)
+- [Viber](https://www.viber.com/)
+- [Skype](https://www.skype.com/)
+- [Tunnelblick](https://www.tunnelblick.net/) (Graphic user interface for OpenVPN)
+- [Spotify](https://www.spotify.com/) (Graphic user interface for OpenVPN)
 
 Applications (installed with [Mas](https://github.com/mas-cli/mas)):
 
@@ -116,10 +130,10 @@ Packages (installed with Homebrew and integrated with [Homebrew Services](https:
 
 ### Things that still need to be done manually
 
-1. Install [Sublime Package Manager](http://sublime.wbond.net/installation).
-2. Install all the apps that aren't yet in this setup (see below).
-3. Set trackpad tracking rate.
-4. Set mouse tracking rate.
+1. Install all the apps that aren't yet in this setup (see below).
+2. Set trackpad tracking rate.
+3. Set mouse tracking rate.
+4. Sync VSCode Settings via Gist.
 5. Configure extra Mail and/or Calendar accounts (e.g. Google, Exchange, etc.).
 
 ### Applications/packages to be added
@@ -131,6 +145,9 @@ These are mostly direct download links, some are more difficult to install becau
 
 ### Configuration to be added
 ...
+
+## ToDo
+- Add Adobe Creative Cloud via [brew](https://formulae.brew.sh/cask/adobe-creative-cloud)
 
 ## Inspiration
 - [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook)
