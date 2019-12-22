@@ -19,9 +19,10 @@ alias ~="cd ~"
 # Shortcuts
 alias dropbox="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
-alias dt ="cd ~/Desktop"
-alias work="cd ~/Work"
-alias workp="cd ~/Work/projects"
+alias dt="cd ~/Desktop"
+alias work="cd ~/projects"
+alias etc="cd /usr/local/etc"
+alias scorum="cd ~/projects/scorum"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -30,22 +31,24 @@ alias j="jobs"
 alias psa="ps aux"
 alias psg="ps aux | grep "
 alias psr='ps aux | grep ruby'
+alias psn='ps aux | grep node'
 
-# Vagrant aliases
+# Vagrant
 alias vag='vagrant'
 alias vagup='vagrant up'
 alias vagdestroy='vagrant destroy'
 alias vagssh='vagrant ssh'
 alias vaghalt='vagrant halt'
 
-# Docker aliases
+# Docker
 alias d='docker $*'
 alias d-c='docker-compose $*'
 
-# Redis aliases
+# Redis
 alias redis-start='brew services start redis'
 alias redis-stop='brew services stop redis'
-# Mongo aliases
+
+# Mongo
 alias mongo-start='brew services start mongodb'
 alias mongo-stop='brew services stop mongodb'
 
@@ -88,3 +91,10 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 
 # Open Sublime
 alias subl='/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
+
+# Open VSCode
+alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+
+# NPM
+alias npm-default='npm config set registry https://registry.npmjs.org'
+alias npm-local='npm config set registry http://localhost:4873/'

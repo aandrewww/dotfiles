@@ -18,3 +18,12 @@
   tool = kdiff3
 [difftool]
   prompt = false
+[alias]
+	c = commit
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  d = diff
+  dc = diff --cached
+	l=log --graph --pretty=format:'%C(110)%h%Creset %C(243)[%an]%Creset | %s %C(248)(%ad, %ar)%C(cyan)%d%Creset' --date=short -10
+	la=log --graph --pretty=format:'%C(110)%h%Creset %C(242)[%an]%Creset | %s %C(248)(%ad)%C(cyan)%d%Creset' --date=local --all
