@@ -3,7 +3,7 @@
 My configuration for Mac Os X machines. Some of these dotfiles are universal.
 You're welcome to use :)
 
-> This is a work in progress, and is mostly a means for me to document my current Mac's setup. I'll be evolving this set of playbooks over time.
+> This is a work in progress, and is mostly a means for me to document my current Mac's setup. I'll be evolving this set of tools over time.
 
 ## Included Applications / Configuration (Default)
 
