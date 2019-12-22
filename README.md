@@ -5,7 +5,7 @@ You're welcome to use :)
 
 > This is a work in progress, and is mostly a means for me to document my current Mac's setup. I'll be evolving this set of tools over time.
 
-## Included Applications / Configuration (Default)
+## Included Applications / Configuration
 
 Applications (installed with [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)):
 
