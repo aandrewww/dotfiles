@@ -24,7 +24,9 @@ alias work="cd ~/projects"
 alias etc="cd /usr/local/etc"
 alias scorum="cd ~/projects/scorum"
 alias g="git"
-alias h="history"
+alias w='which'
+alias q="exit"
+alias h='history'
 alias j="jobs"
 
 # PS
@@ -82,6 +84,11 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Network
+alias ports="lsof -iTCP -sTCP:LISTEN -P"
+alias mac-address-wired="ifconfig en0 | grep ether"
+alias mac-address-wireless="ifconfig en1 | grep ether"
 
 # File size
 alias fs="stat -f \"%z bytes\""

@@ -26,6 +26,9 @@ Applications (installed with [Homebrew Cask](https://github.com/Homebrew/homebre
 - [Visual Studio Code](https://code.visualstudio.com/) (Code editor from Microsoft)
 - [VLC](https://www.videolan.org/vlc/) (Media player software and streaming media server)
 - [1Password](https://1password.com/) (Password Manager)
+- [Appcleaner](https://freemacsoft.net/appcleaner/) (Small application which allows you to thoroughly uninstall unwanted apps.)
+- [Pixel Picker](https://github.com/acheronfail/pixel-picker) (A tiny menu bar application that helps you pick colours from your screen! )
+- [Typora](https://typora.io/) (Minimal markdown editor)
 - [Adium](https://adium.im/) (Instant messaging application for Mac OS X that can connect to AIM, XMPP (Jabber), ICQ, IRC and more)
 - [Handbrake](https://handbrake.fr/) (Video transcoder)
 - [Transmission](https://transmissionbt.com/) (BitTorrent client)
@@ -148,6 +151,8 @@ These are mostly direct download links, some are more difficult to install becau
 
 ## ToDo
 - Add Adobe Creative Cloud via [brew](https://formulae.brew.sh/cask/adobe-creative-cloud)
+- Add [npm packages](https://github.com/aziz/dotfiles/blob/master/templates/dependencies/npm)
+- Add [vcsode packages](https://github.com/aziz/dotfiles/blob/master/templates/dependencies/vscode)
 
 ## Inspiration
 - [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook)

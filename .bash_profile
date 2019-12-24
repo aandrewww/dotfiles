@@ -8,3 +8,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Go PATH
+export GOPATH="$HOME/projects/go";
+
+# DIGITALOCEAN_TOKEN for Terraform
+export DIGITALOCEAN_TOKEN=xxx;
